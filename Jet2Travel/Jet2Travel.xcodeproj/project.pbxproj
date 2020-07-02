@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181E80BC24AE549200A2E7BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E80BB24AE549200A2E7BF /* AppDelegate.swift */; };
+		181E80C024AE549200A2E7BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E80BF24AE549200A2E7BF /* ViewController.swift */; };
+		181E80C324AE549200A2E7BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E80C124AE549200A2E7BF /* Main.storyboard */; };
+		181E80C624AE549200A2E7BF /* Jet2Travel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 181E80C424AE549200A2E7BF /* Jet2Travel.xcdatamodeld */; };
+		181E80C824AE549400A2E7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E80C724AE549400A2E7BF /* Assets.xcassets */; };
+		181E80CB24AE549400A2E7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E80C924AE549400A2E7BF /* LaunchScreen.storyboard */; };
+		181E80D624AE549400A2E7BF /* Jet2TravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E80D524AE549400A2E7BF /* Jet2TravelTests.swift */; };
+		181E80E124AE549400A2E7BF /* Jet2TravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E80E024AE549400A2E7BF /* Jet2TravelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181E80D224AE549400A2E7BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E80B024AE549200A2E7BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E80B724AE549200A2E7BF;
+			remoteInfo = Jet2Travel;
+		};
+		181E80DD24AE549400A2E7BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E80B024AE549200A2E7BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E80B724AE549200A2E7BF;
+			remoteInfo = Jet2Travel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181E80B824AE549200A2E7BF /* Jet2Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jet2Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E80BB24AE549200A2E7BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181E80BF24AE549200A2E7BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181E80C224AE549200A2E7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181E80C524AE549200A2E7BF /* Jet2Travel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jet2Travel.xcdatamodel; sourceTree = "<group>"; };
+		181E80C724AE549400A2E7BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181E80CA24AE549400A2E7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181E80CC24AE549400A2E7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E80D124AE549400A2E7BF /* Jet2TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jet2TravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E80D524AE549400A2E7BF /* Jet2TravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jet2TravelTests.swift; sourceTree = "<group>"; };
+		181E80D724AE549400A2E7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E80DC24AE549400A2E7BF /* Jet2TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jet2TravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E80E024AE549400A2E7BF /* Jet2TravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jet2TravelUITests.swift; sourceTree = "<group>"; };
+		181E80E224AE549400A2E7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181E80B524AE549200A2E7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E80CE24AE549400A2E7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E80D924AE549400A2E7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181E80AF24AE549200A2E7BF = {
+			isa = PBXGroup;
+			children = (
+				181E80BA24AE549200A2E7BF /* Jet2Travel */,
+				181E80D424AE549400A2E7BF /* Jet2TravelTests */,
+				181E80DF24AE549400A2E7BF /* Jet2TravelUITests */,
+				181E80B924AE549200A2E7BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181E80B924AE549200A2E7BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181E80B824AE549200A2E7BF /* Jet2Travel.app */,
+				181E80D124AE549400A2E7BF /* Jet2TravelTests.xctest */,
+				181E80DC24AE549400A2E7BF /* Jet2TravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181E80BA24AE549200A2E7BF /* Jet2Travel */ = {
+			isa = PBXGroup;
+			children = (
+				181E80BB24AE549200A2E7BF /* AppDelegate.swift */,
+				181E80BF24AE549200A2E7BF /* ViewController.swift */,
+				181E80C124AE549200A2E7BF /* Main.storyboard */,
+				181E80C724AE549400A2E7BF /* Assets.xcassets */,
+				181E80C924AE549400A2E7BF /* LaunchScreen.storyboard */,
+				181E80CC24AE549400A2E7BF /* Info.plist */,
+				181E80C424AE549200A2E7BF /* Jet2Travel.xcdatamodeld */,
+			);
+			path = Jet2Travel;
+			sourceTree = "<group>";
+		};
+		181E80D424AE549400A2E7BF /* Jet2TravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				181E80D524AE549400A2E7BF /* Jet2TravelTests.swift */,
+				181E80D724AE549400A2E7BF /* Info.plist */,
+			);
+			path = Jet2TravelTests;
+			sourceTree = "<group>";
+		};
+		181E80DF24AE549400A2E7BF /* Jet2TravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181E80E024AE549400A2E7BF /* Jet2TravelUITests.swift */,
+				181E80E224AE549400A2E7BF /* Info.plist */,
+			);
+			path = Jet2TravelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181E80B724AE549200A2E7BF /* Jet2Travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E80E524AE549400A2E7BF /* Build configuration list for PBXNativeTarget "Jet2Travel" */;
+			buildPhases = (
+				181E80B424AE549200A2E7BF /* Sources */,
+				181E80B524AE549200A2E7BF /* Frameworks */,
+				181E80B624AE549200A2E7BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jet2Travel;
+			productName = Jet2Travel;
+			productReference = 181E80B824AE549200A2E7BF /* Jet2Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181E80D024AE549400A2E7BF /* Jet2TravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E80E824AE549400A2E7BF /* Build configuration list for PBXNativeTarget "Jet2TravelTests" */;
+			buildPhases = (
+				181E80CD24AE549400A2E7BF /* Sources */,
+				181E80CE24AE549400A2E7BF /* Frameworks */,
+				181E80CF24AE549400A2E7BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E80D324AE549400A2E7BF /* PBXTargetDependency */,
+			);
+			name = Jet2TravelTests;
+			productName = Jet2TravelTests;
+			productReference = 181E80D124AE549400A2E7BF /* Jet2TravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181E80DB24AE549400A2E7BF /* Jet2TravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E80EB24AE549400A2E7BF /* Build configuration list for PBXNativeTarget "Jet2TravelUITests" */;
+			buildPhases = (
+				181E80D824AE549400A2E7BF /* Sources */,
+				181E80D924AE549400A2E7BF /* Frameworks */,
+				181E80DA24AE549400A2E7BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E80DE24AE549400A2E7BF /* PBXTargetDependency */,
+			);
+			name = Jet2TravelUITests;
+			productName = Jet2TravelUITests;
+			productReference = 181E80DC24AE549400A2E7BF /* Jet2TravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181E80B024AE549200A2E7BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Tita;
+				TargetAttributes = {
+					181E80B724AE549200A2E7BF = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					181E80D024AE549400A2E7BF = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 181E80B724AE549200A2E7BF;
+					};
+					181E80DB24AE549400A2E7BF = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 181E80B724AE549200A2E7BF;
+					};
+				};
+			};
+			buildConfigurationList = 181E80B324AE549200A2E7BF /* Build configuration list for PBXProject "Jet2Travel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181E80AF24AE549200A2E7BF;
+			productRefGroup = 181E80B924AE549200A2E7BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181E80B724AE549200A2E7BF /* Jet2Travel */,
+				181E80D024AE549400A2E7BF /* Jet2TravelTests */,
+				181E80DB24AE549400A2E7BF /* Jet2TravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181E80B624AE549200A2E7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E80CB24AE549400A2E7BF /* LaunchScreen.storyboard in Resources */,
+				181E80C824AE549400A2E7BF /* Assets.xcassets in Resources */,
+				181E80C324AE549200A2E7BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E80CF24AE549400A2E7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E80DA24AE549400A2E7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181E80B424AE549200A2E7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E80C024AE549200A2E7BF /* ViewController.swift in Sources */,
+				181E80BC24AE549200A2E7BF /* AppDelegate.swift in Sources */,
+				181E80C624AE549200A2E7BF /* Jet2Travel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E80CD24AE549400A2E7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E80D624AE549400A2E7BF /* Jet2TravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E80D824AE549400A2E7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E80E124AE549400A2E7BF /* Jet2TravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181E80D324AE549400A2E7BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E80B724AE549200A2E7BF /* Jet2Travel */;
+			targetProxy = 181E80D224AE549400A2E7BF /* PBXContainerItemProxy */;
+		};
+		181E80DE24AE549400A2E7BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E80B724AE549200A2E7BF /* Jet2Travel */;
+			targetProxy = 181E80DD24AE549400A2E7BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181E80C124AE549200A2E7BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E80C224AE549200A2E7BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181E80C924AE549400A2E7BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E80CA24AE549400A2E7BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181E80E324AE549400A2E7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		181E80E424AE549400A2E7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181E80E624AE549400A2E7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jet2Travel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tita.Jet2Travel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		181E80E724AE549400A2E7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jet2Travel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tita.Jet2Travel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		181E80E924AE549400A2E7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jet2TravelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tita.Jet2TravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jet2Travel.app/Jet2Travel";
+			};
+			name = Debug;
+		};
+		181E80EA24AE549400A2E7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jet2TravelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tita.Jet2TravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jet2Travel.app/Jet2Travel";
+			};
+			name = Release;
+		};
+		181E80EC24AE549400A2E7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jet2TravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tita.Jet2TravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jet2Travel;
+			};
+			name = Debug;
+		};
+		181E80ED24AE549400A2E7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jet2TravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tita.Jet2TravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jet2Travel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181E80B324AE549200A2E7BF /* Build configuration list for PBXProject "Jet2Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E80E324AE549400A2E7BF /* Debug */,
+				181E80E424AE549400A2E7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E80E524AE549400A2E7BF /* Build configuration list for PBXNativeTarget "Jet2Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E80E624AE549400A2E7BF /* Debug */,
+				181E80E724AE549400A2E7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E80E824AE549400A2E7BF /* Build configuration list for PBXNativeTarget "Jet2TravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E80E924AE549400A2E7BF /* Debug */,
+				181E80EA24AE549400A2E7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E80EB24AE549400A2E7BF /* Build configuration list for PBXNativeTarget "Jet2TravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E80EC24AE549400A2E7BF /* Debug */,
+				181E80ED24AE549400A2E7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		181E80C424AE549200A2E7BF /* Jet2Travel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				181E80C524AE549200A2E7BF /* Jet2Travel.xcdatamodel */,
+			);
+			currentVersion = 181E80C524AE549200A2E7BF /* Jet2Travel.xcdatamodel */;
+			path = Jet2Travel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 181E80B024AE549200A2E7BF /* Project object */;
+}
